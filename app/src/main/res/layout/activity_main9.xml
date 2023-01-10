@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41AAFD"
+    tools:context=".MainActivity9">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="322dp"
+        android:layout_height="333dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginTop="236dp"
+        android:text="YOU NEED NOT WORRY ABOUT JUST CLICK ON WATERLOO AND IT WILL TELL YOU HOW  TO BE HYDRATED"
+        android:textAlignment="center"
+        android:textColor="#1C0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="396dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="144dp"
+        android:text="  2-> REST LEAVE IT ON ME I'LL NOTIFY  \n        YOU TO DRINK WATER"
+        android:textAlignment="gravity"
+        android:textColor="#1C0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="391dp"
+        android:layout_height="115dp"
+        android:text="1->  WHENEVER YOU DRINK WATER JUST \n     NOTIFY ME BY PRESSING ADD BUTTON"
+        android:textAlignment="gravity"
+        android:textColor="#1C0A0A"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView15"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/waterlife"
+        android:layout_width="265dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="12dp"
+        android:text="START YOUR WATERRY LIFE"
+        app:backgroundTint="#1636D3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15"
+        app:layout_constraintVertical_bias="0.228" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

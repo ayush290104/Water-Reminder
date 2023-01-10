@@ -25,7 +25,7 @@ private lateinit var auth: FirebaseAuth
         // Check if user is signed in (non-null) and update UI accordingly.
         val currentUser = auth.currentUser
         if(currentUser != null){
-            var intent = Intent(this,MainActivity4::class.java)
+            var intent = Intent(this,MainActivity10::class.java)
             startActivity(intent)
             finish()
 
@@ -41,7 +41,7 @@ private lateinit var auth: FirebaseAuth
         setContentView(R.layout.activity_main3)
         var emailid : EditText = findViewById(R.id.emai_id)
         var passwordtext:EditText = findViewById(R.id.password)
-        var confrimpassword : EditText = findViewById(R.id.confirmpassword)
+
         var createAccount : Button = findViewById(R.id.create)
         var sigin : Button = findViewById(R.id.signin)
 sigin.setOnClickListener(View.OnClickListener {

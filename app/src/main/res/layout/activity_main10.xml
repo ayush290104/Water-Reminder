@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#41AAFD"
+    tools:context=".MainActivity10">
+
+    <Button
+        android:id="@+id/reset2"
+        android:layout_width="175dp"
+        android:layout_height="53dp"
+        android:backgroundTint="#1636D3"
+        android:text="CHANGE"
+
+        app:cornerRadius="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.163" />
+
+    <TextView
+        android:id="@+id/press_to_reset"
+        android:layout_width="407dp"
+        android:layout_height="67dp"
+        android:text="IF IF YOU WANT TO CHANGE YOUR INFROMATION PRESS CHANGE"
+        android:textAlignment="center"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/reset2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="215dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="117dp"
+        android:textAlignment="center"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.403"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/press_to_reset"
+        app:layout_constraintVertical_bias="0.217" />
+
+    <EditText
+        android:id="@+id/wateradded"
+        android:layout_width="214dp"
+        android:layout_height="56dp"
+        android:ems="10"
+        android:hint="Amount you drank in ml"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.147"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
+        app:layout_constraintVertical_bias="0.152" />
+
+    <Button
+        android:id="@+id/Addwater"
+        android:layout_width="137dp"
+        android:layout_height="49dp"
+        android:backgroundTint="#1636D3"
+        android:text="ADD"
+        app:cornerRadius="23dp"
+        app:layout_constraintBottom_toBottomOf="@+id/wateradded"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.266"
+        app:layout_constraintStart_toEndOf="@+id/wateradded"
+        app:layout_constraintTop_toTopOf="@+id/wateradded"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="394dp"
+        android:layout_height="54dp"
+        android:text="AMOUNT OF WATER LEFT FOR THE DAY"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView13"
+        app:layout_constraintHorizontal_bias="0.435"
+        app:layout_constraintStart_toStartOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.381" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="70dp"
+        android:layout_height="53dp"
+        android:text="ML"
+        android:textAlignment="center"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView13"
+        app:layout_constraintTop_toTopOf="@+id/textView13"
+        app:layout_constraintVertical_bias="1.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

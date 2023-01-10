@@ -19,7 +19,7 @@
         app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.396" />
+        app:layout_constraintVertical_bias="0.478" />
 
     <EditText
         android:id="@+id/editTextTextPassword"
@@ -33,7 +33,7 @@
         app:layout_constraintHorizontal_bias="0.312"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress"
-        app:layout_constraintVertical_bias="0.157" />
+        app:layout_constraintVertical_bias="0.07" />
 
     <Button
         android:id="@+id/login"
@@ -55,9 +55,10 @@
         android:layout_height="200dp"
         app:layout_constraintBottom_toTopOf="@+id/editTextTextEmailAddress"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.467"
+        app:layout_constraintHorizontal_bias="0.415"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.492"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/img" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
